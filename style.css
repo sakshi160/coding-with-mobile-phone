@@ -1,17 +1,15 @@
-
-  
-
-
 body {
     font-size: 15pt;
     background:gray;
-     
-font-family: 'Dancing Script', cursive
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
 }
 h1{
   color:brown;
   text-align:center;
   font-family: 'Bungee Shade', cursive;
+  padding:5px;
+  margin-bottom:0px;
 }
 .mobile{
     background:white;
@@ -21,6 +19,20 @@ h1{
     padding:10px;
     margin:20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+img{
+  display: block;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+.stats{
+  border: 5px inset brown;
+  border-radius:5px;
+  padding:10px;
+  margin:5px;
+  background:rgb(250, 240, 207);
 }
 
 
